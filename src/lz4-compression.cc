@@ -53,7 +53,7 @@
 //using namespace pxr_lz4;
 #else
 // TinyUSDZ : Use orignal lz4.
-#include "lz4/lz4.h"
+#include <lz4.h>
 #endif
 
 namespace tinyusdz {
